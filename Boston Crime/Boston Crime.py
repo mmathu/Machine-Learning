@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import accuracy_score
 from sklearn import tree
-df = pd.read_csv(r'C:\Users\Myoran\Documents\My Tableau Repository\Datasources\Boston Crime\crime.csv',  sep='\t',
+df = pd.read_csv(r'',  sep='\t',
 engine='python', delimiter=',')
 
 ###Clean Null values
